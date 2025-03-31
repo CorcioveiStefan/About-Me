@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       circle.style.display = "block";
       center.style.display = "block";
       audio.style.visibility = "visible";
-      playImg.src = "/Assets/UsedButtonStop.png";
+      playImg.src = "Assets/UsedButtonStop.png";
     } else {
       widget.pause();
       widget.seekTo(0);
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       circle.style.display = "none";
       center.style.display = "none";
       audio.style.visibility = "hidden";
-      playImg.src = "/Assets/UsedButtonPlay.png";
+      playImg.src = "Assets/UsedButtonPlay.png";
     }
     isPlaying = !isPlaying;
   });
