@@ -395,6 +395,12 @@ footer p a:hover,
   footer {
     height: 18vh;
   }
+  footer p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+  }
 }
 
 .popup {
