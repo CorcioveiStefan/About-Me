@@ -388,6 +388,15 @@ footer p a:hover,
   opacity: 0;
 }
 
+@media (max-width: 639px) {
+  #contact {
+    height: 70vh;
+  }
+  footer {
+    height: 18vh;
+  }
+}
+
 .popup {
   display: none;
   position: fixed;
